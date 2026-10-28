@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	httpAddr = env.GetString("HTTP_ADDR", ":8083")
+	httpAddr = env.GetString("HTTP_ADDR", ":8081")
 )
 
 func main() {

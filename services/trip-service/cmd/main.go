@@ -17,7 +17,7 @@ func main() {
 	mux.HandleFunc("POST /preview", httpHandler.HandleTripPreview)
 
 	server := &http.Server{
-		Addr:    ":8003",
+		Addr:    ":8083",
 		Handler: mux,
 	}
 
